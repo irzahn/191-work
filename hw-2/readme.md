@@ -14,4 +14,4 @@
 This is my code block!
 
 ```
- ![image of my editor](DTSS.jpg)
+ ![image of my editor](DTSS.png)
