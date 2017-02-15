@@ -1,7 +1,9 @@
 function setup() {
 createCanvas(1000,1000);
 background(192,192,192);
-
+textSize(32);
+text("Isaac Zahn 'IKE'",400,450);
+fill(0,0,0);
 }
 
 //body
