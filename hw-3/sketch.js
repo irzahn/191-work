@@ -1,13 +1,13 @@
 function setup() {
 createCanvas(1000,1000);
 background(192,192,192);
+
 }
-translate(500,500);
+
 //body
 function draw() {
 fill(25,25,112);
 rect(550,700,400,600,100,100,0,0);
-
 
 //the head
 translate(250,100);
