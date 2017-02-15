@@ -1,12 +1,12 @@
 # this assigment is challenging, but fun.
-## Things I struggled with on this assingnment were:
-1. arcs- getting the arc to be where I wanted it was a pain.
+##  I struggled with on this assingnment were:
+1. arcs- getting the arc to be where I wanted was a pain.
 2. grid coordinates, and matching them to what, and where I wanted them, was tricky.
-## Things that helped me were:
+## The tools that helped me were:
 * a color code chart.
 * asking for help in class with arcs.
 
-[this is a link to my website](https://irzahn.github.io/191-work/)
+[This is a link to my homework](https://irzahn.github.io/191-work/hw-3)
 ```
 'this is my code'
 createCanvas(1000,1000);
