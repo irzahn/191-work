@@ -78,10 +78,10 @@ push();
   ellipse(x, y, d, d);
 pop();
 if (state){
-  bright3=bright3*2;
-  bright2=bright2*2;
-  bright1=bright1*2;
-  bright0=bright0*2;
+  bright3= -bright3;
+  bright2= -bright2;
+  bright1= -bright1;
+  bright0= -bright0;
 }
 }
 function mousePressed() {
