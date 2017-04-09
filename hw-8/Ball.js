@@ -19,8 +19,10 @@ Ball.prototype.checkEdge = function() {
 };
 
 Ball.prototype.display = function() {
+  fill(random(0,255),random(0,255),random(0,255),random(0,255));
+
     push();
-    fill(random(floor(100,255)));
-    ellipse(this.x,this.y, this.size++, this.size);
+    noStroke()
+    ellipse(this.x,this.y, this.size, this.size++);
     pop();
 };
