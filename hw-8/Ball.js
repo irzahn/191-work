@@ -20,9 +20,7 @@ Ball.prototype.checkEdge = function() {
 
 Ball.prototype.display = function() {
     push();
-    fill(random(0,255),random(0,255),random(0,255));
-    ellipse(this.x,this.y, this.size, this.size);
-    //ellipse(-this.size * 0.5, -this.size * 0.5, this.size * 0.2, this.size * 0.2);
-    //ellipse(this.size * 0.5, -this.size * 0.5, this.size * 0.2, this.size * 0.2);
+    fill(random(floor(100,255)));
+    ellipse(this.x,this.y, this.size++, this.size);
     pop();
 };
