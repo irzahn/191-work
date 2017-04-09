@@ -11,12 +11,12 @@ for (var i = 0; i < number_of_flakes; i++){
         y: 0,
         xrange: random(1,6),
         yrange: random(1,6),
-        scale: random(0,windowHeight),
+        scale: random(0,windowWidth),
         display: function(){
           this.y++;
 
           push();
-          var alpha = map(this.y,windowHeight/2,width,255);
+          var alpha = map(this.y,windowHeight/2,width,50);
           alpha = constrain(alpha,0,255);
           fill(255,255,255,alpha);
           ellipse(this.x,this.y * this.scale,this.xrange,this.yrange);
@@ -27,8 +27,9 @@ for (var i = 0; i < number_of_flakes; i++){
 
         boundCheck: function(){
           if (this.y >= windowHeight) {this.y = snowFlake.scale;}
-          if (this.y <= windowHeight) {this.x = random(0, width);}
-          if (this.x >= width) {this.x = width -2;}
+          //if (this.y >= windowHight){this.y = 1;}
+          if (this.y >= windowHeight) {this.x = random(0, width);}
+          if (this.x >= windowWidth) {this.x = random(0,width);}
           if (this.x <= 0) {this.x = 0 + 2;}
         },
     };
