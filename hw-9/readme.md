@@ -1,0 +1,1 @@
+this was by far the hardest assignment so far, with a lot of back and forth with code and changing a little at a time and commenting others out to trouble shoot this one. I originally wanted the dice to change into different numbers and i could have figured it out given enough time but i am happy with how this turned out.
