@@ -1,5 +1,5 @@
 var dice = [];
-var num_of_dice = 5;
+var num_of_dice = 10;
 
 
 function setup() {
